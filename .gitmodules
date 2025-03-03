@@ -1,0 +1,3 @@
+[submodule "vendor/nim_miqt_poc"]
+	path = vendor/nim-miqt-poc
+	url = https://github.com/arnetheduck/nim-miqt-poc.git
