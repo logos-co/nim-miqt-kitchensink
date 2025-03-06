@@ -1,4 +1,4 @@
-import ../../vendor/nim_miqt_poc/seeqt/[
+import ../../vendor/seaqt/seaqt/[
   qapplication
 ]
 import mainwindow

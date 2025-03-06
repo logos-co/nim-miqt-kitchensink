@@ -3,7 +3,7 @@
 # The above was required to build, replaced with config.nims and flake.nix setting LIBRARAY_PATH
 
 # import liblogos
-import ../../vendor/nim_miqt_poc/seeqt/[qapplication, qpushbutton, qwidget, qmainwindow]
+import ../../vendor/seaqt/seaqt/[qapplication, qpushbutton, qwidget, qmainwindow]
 
 import strformat
 import logging
