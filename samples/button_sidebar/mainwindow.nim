@@ -1,4 +1,4 @@
-import ../../vendor/nim_miqt_poc/seeqt/[
+import ../../vendor/seaqt/seaqt/[
   qmainwindow, qwidget, qlabel, qframe, qboxlayout, 
   qspaceritem, qicon, qsize, qstackedwidget, qfont, qpushbutton
 ]
