@@ -21,6 +21,7 @@ proc newMdiChild*(): MdiChild =
   
   # Create the content label
   result.contentLabel = QLabel.create()
+  result.contentLabel.owned = false
   
   # Generate a random background color
   let r = rand(100..240).cint
@@ -49,7 +50,8 @@ proc newMdiChild*(): MdiChild =
   
   # Create layout
   result.layout = QVBoxLayout.create()
-  
+  result.layout.owned = false
+
   # Add label to layout with stretch
   result.layout.addWidget(result.contentLabel, 1)
   
